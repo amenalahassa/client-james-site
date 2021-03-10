@@ -1,0 +1,62 @@
+.header-banner {
+      background-image: linear-gradient(22deg, rgba(228,251,255,1) 0%, rgba(237,238,247,1) 90%);
+}
+
+/* .tc-light{
+  color: black !important;
+} */
+
+.tc-light p {
+  color: #4a4a4a !important;
+}
+
+.tc-light h2 {
+  color: #1940b0 !important;
+}
+
+.toggle-line {
+  color: black !important;
+}
+
+.has-fixed.is-dark .header-main {
+  background-color: #e2f0f3 !important;
+}
+
+.bg-theme-dark, .bg-theme{
+  background-color: white !important;
+}
+
+
+.tc-light h1, .tc-light a:not(.btn) h1, .tc-light h2, .tc-light a:not(.btn) h2, .tc-light h3, .tc-light a:not(.btn) h3, .tc-light h4, .tc-light a:not(.btn) h4, .tc-light h5, .tc-light a:not(.btn) h5, .tc-light h6, .tc-light a:not(.btn) h6, .tc-light .h1, .tc-light a:not(.btn) .h1, .tc-light .h2, .tc-light a:not(.btn) .h2, .tc-light .h3, .tc-light a:not(.btn) .h3, .tc-light .h4, .tc-light a:not(.btn) .h4, .tc-light .h5, .tc-light a:not(.btn) .h5, .tc-light .h6, .tc-light a:not(.btn) .h6 {
+  color: #1940b0 !important;
+}
+
+.roadmap-step p, h5.team-featured-info, h4.title-md {
+  color: white !important;
+}
+
+.bg-theme-change {
+    background-color: #122272;
+}
+
+.bg-my-theme-1 {
+  background-color: #dcf1f5 !important;
+}
+
+.wgs-body p:last-child {
+  color: white !important;
+}
+
+h6.wgs-title {
+      color: #23c99d !important;
+}
+
+.cl-my-theme-1 {
+  color:#16a3fe !important;
+}
+
+@media (max-width: 992px) {
+  .menu-btns {
+    flex-direction: column;
+  }
+}
