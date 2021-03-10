@@ -56,8 +56,12 @@ h6.wgs-title {
   color:#16a3fe !important;
 }
 
-.cl-my-theme-2 {
+.cl-my-theme-2, .ath-note, .field-item, .ath-heading small, .ath-body p {
   color: #4a4a4a !important;
+}
+
+a.modal-close {
+  color: black !important;
 }
 
 .tc-light .wgs-body a:not(.btn){
@@ -87,4 +91,38 @@ h6.wgs-title {
 .ps-my-theme-1
 {
   position: inherit !important;
+}
+
+
+.custom-field {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  margin-top: 20px !important;
+}
+
+.custom-field button {
+  min-width: auto !important;
+  border-radius: 0 5px 5px 0 !important;
+}
+
+.custom-field .input-bordered {
+  border-radius: 6px 0 0px 6px !important;
+}
+
+.btn-cp-rslt {
+  transition: opacity 0.5s ease-out !important;
+  margin-top: 10px !important;
+  border-radius: 0px;
+  background-color: #23c99d !important;
+  border-color: #23c99d !important;
+  opacity: 0;
+}
+
+.btn-cp-rslt.active {
+  opacity: 1;
+}
+
+.d6 {
+  animation-duration: 1s !important;
+  animation-delay: 1s !important;
 }
