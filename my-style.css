@@ -43,9 +43,10 @@
   background-color: #dcf1f5 !important;
 }
 
-.wgs-body p:last-child {
-  color: white !important;
+.bg-my-theme-2 {
+  background-color: white !important;
 }
+
 
 h6.wgs-title {
       color: #23c99d !important;
@@ -55,8 +56,35 @@ h6.wgs-title {
   color:#16a3fe !important;
 }
 
+.cl-my-theme-2 {
+  color: #4a4a4a !important;
+}
+
+.tc-light .wgs-body a:not(.btn){
+  color: #4a4a4a !important;
+}
+
 @media (max-width: 992px) {
   .menu-btns {
     flex-direction: column;
   }
+  .btn-grad-change{
+    color: white !important;
+  }
+}
+.btn-grad-change {
+    color: #4a4a4a ;
+    border: none !important;
+    transition: 0.2s ease color !important;
+}
+
+.btn-grad-change:hover
+{
+      color: white !important;
+      background-image: linear-gradient(to right, #16a3fe 0%, #23c99d 100%);
+}
+
+.ps-my-theme-1
+{
+  position: inherit !important;
 }
